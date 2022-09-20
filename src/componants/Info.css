@@ -1,0 +1,221 @@
+.info-container {
+  background-color: rgba(17, 9, 9, 0.963);
+  color: black;
+  margin-bottom: 99vh;
+  /* margin-top: 7px; */
+  margin-left: 5%;
+  height: 970px;
+  padding-top: 0px;
+  display: flex;
+  width: 90%;
+  background-color: rgb(42, 38, 38);
+  /* z-index: 1; */
+  box-shadow: 0 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 0.1s ease-in;
+}
+
+.info1 {
+  margin: 0.5% 0.5% 0.5% 0.5%;
+  height: 42%;
+  width: 38%;
+  margin-top: 22px;
+  padding-top: 10px;
+  margin-right: 30px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  background-image: url(../componants/image/Netflix.jpg); 
+}
+.info1:hover {
+  transform: scale(1.05);
+} 
+.info2 {
+  margin: 0.5% 0.5% 0.5% 0.5%;
+  height: 42%;
+  width: 38%;
+  margin-top: 22px;
+  padding-top: 10px;
+  margin-right: 30px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  background-image: url(../componants/image/Amazon.jpg); 
+}
+.info2:hover {
+  transform: scale(1.05);
+} 
+.info13 {
+  margin: 0.5% 0.5% 0.5% 0.5%; 
+  height: 450px;
+  margin-top: -4%;
+  width: 100%;
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+  background-image: url(../componants/image/SunTour.jpg); 
+}
+.info13:hover {
+  transform: scale(1.05);
+} 
+.info3 {
+  margin: 0.5% 0.5% 0.5% 0.5%; 
+  height: 450px;
+  margin-top: -4%;
+  width: 100%;
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+  background-image: url(../componants/image/Apple.jpg); 
+}
+.info3:hover {
+  transform: scale(1.05);
+} 
+
+.github{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image:url("https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_505df21738edbe9baababa9d60be291d/github.png") ;
+}
+
+.info4{
+  margin: 0.5% 0.5% 0.5% 0.5%; 
+  height: 450px;
+  margin-top: -4%;
+  width: 100%;
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+  background-image: url(../componants/image/EVANGADI\ 2.jpg);
+}
+.info4:hover {
+  transform: scale(1.05);
+}
+
+.info0{
+  margin: 0.5% 0.5% 0.5% 0.5%;
+  height: 42%;
+  width: 38%;
+  margin-top: 22px;
+  padding-top: 10px;
+  margin-right: 30px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  background-image: url(../componants/image/photo_2022-09-09_21-28-09.jpg); 
+}
+.info0:hover {
+  transform: scale(1.05);
+} 
+.info-container button {
+  background: #0fc3de7d;
+  border: 1px solid;
+  border-color: #1d6aad78 #9c7e31 #846a29;
+  color: #111;
+  display: inline-block;
+  /* object-fit: contain; */
+  width: 95px;
+  height: 33px;
+  margin-top: 99%;
+  margin-left: 25%;
+  border-radius: 5px;
+  transition: transform 0.1s ease-out;
+  box-shadow: 0 5px 0 #19275e;
+}
+/* button:active{
+  box-shadow: 0 0 0  #58a700;
+  transform: translateY(5px);
+} */
+.infoimg {
+  width: 0px;
+}
+@media only screen and (max-width: 950px) {
+  .info-container {
+    width: 90%;
+    background-color: rgba(12, 11, 24, 0.995);
+    padding-top: 2px;
+    /* margin-bottom: 99vh; */
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    transition: none;
+
+    /* display:flex; */
+    
+  }
+  .info1{
+    padding-left: 0px;
+    background-image: none;
+    margin-top: 0px;
+  }
+  .info2 {
+   height: 160px;
+   background-image: none;
+   margin-top: 120px;
+  }
+  .info0 {
+    height: 50px;
+    margin-top: 0px;
+    background-image: none;
+  } 
+  .info13{
+      height: 190px;
+      margin-top: 0px;
+      background-image: none;
+    }
+
+  .info3{
+    margin-top: 0px;
+    height: 120px;
+    background-image: none;
+  }
+  .info4{
+    margin-top: 0px;
+    padding-left: 0px;
+    height: 120px;
+    background-image: none;
+  }
+  .info-container button {
+    margin-top: 10%;
+    margin-left: 18%;
+    width: 110px;
+    height: 35px;
+    padding: 3% 3% 3% 1%;
+ 
+    color: white;
+    font-weight: 600;
+    font-size: large;
+    text-decoration: none;
+  }
+
+  /* .info > h1 {
+    text-align: center;
+    font-size: 23px;
+  } */
+
+}

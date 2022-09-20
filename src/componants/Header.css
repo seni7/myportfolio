@@ -1,0 +1,46 @@
+.header {
+    height: 60px;
+    display: flex;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  .header__logo {
+    width: 50px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 3px;
+  }
+
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    
+  }
+ 
+  .header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 78%;
+  }
+
+  .header__optionLineOne {
+    text-decoration:none;
+    text-decoration: underline  #131921;
+    font-size: large;
+    padding-top: 15px;
+  }
+  @media only screen and (max-width: 950px) {
+    .header__nav {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 17%;
+        align-items: center;
+      }
+  }
